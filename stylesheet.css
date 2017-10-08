@@ -2,7 +2,6 @@ body {
 	font-family: 'Oswald', sans-serif;
 	padding: 0;
 	margin: 0;
-	outline: 2px solid blue;
 }
 
 div {
@@ -10,7 +9,7 @@ div {
 }
 
 .clearfix:after {
-	content:'';
+	content: '';
 	display: table;
 	width: 100%;
 	clear: both;
@@ -18,14 +17,16 @@ div {
 
 header {
 	background: url(img/first-bg.jpg) no-repeat center top / cover;
+	height: 100vh;
 	padding-bottom: 130px;
 	overflow: hidden;
+
 }
 
 .container {
 	width: 930px;
 	margin: 0 auto;
-	outline: 2px solid red;
+	outline: 2px solid ed;
 }
 
 .logo {
@@ -54,9 +55,17 @@ nav {
 
 .menu a {
 	color: #fff;
-	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 22px;
+}
+
+.menu a:hover {
+	color: #777;
+	transition: all 0.3s ease-in-out;
+}
+
+a {
+	text-decoration: none;
 }
 
 .title-header {
@@ -75,7 +84,6 @@ nav {
 	width: 240px;
 	padding: 15px 0;
 	margin: 0 auto;
-	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -83,11 +91,16 @@ nav {
 	margin-top: 130px;
 }
 
-.title-services {
-	padding-top: 115px;
+.button-tell:hover {
+	background: yellow;
+	transition: all 0.4s ease-in-out;
 }
 
-.title-services h2 {
+.title {
+	padding-top: 100px;
+}
+
+.title h2 {
 	font-size: 45px;
 	font-weight: bold;
 	text-align: center;
@@ -95,17 +108,36 @@ nav {
 	margin: 0;
 }
 
-.title-services p {
+.title p {
 	text-align: center;
 	font-size: 23px;
 	margin-top: 5px;
 	color: #777;
 }
 
+#button-down {
+	font-size: 60px;
+}
+
+#button-down i {
+	color: #777;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 95px;
+}
+
+#button-down i:hover {
+	font-size: 80px;
+	transition: all 0.4s ease-in-out;
+}
+
 .services {
 	margin-top: 50px;
+}
 
-
+#services {
+	padding-bottom: 0px;
 }
 
 .services_item {
@@ -133,3 +165,80 @@ nav {
 .services_item:nth-child(2) {
 	margin-left: 60px;
 }
+
+.services {
+	margin-bottom: 50px;
+}
+
+#works {
+	background: #f7f7f7;
+}
+
+.projects {
+	margin-top: 80px;
+	padding-bottom: 120px;
+}
+
+
+.projects img {
+	float: left;
+	height: 280px;
+	width: 290px;
+}
+
+.projects img:last-child {
+	float: right;
+}
+
+.projects img:nth-child(2) {
+	margin-left: 30px;
+}
+
+.map {
+	float: right;
+	height: 300px;
+}
+
+.coordinates {
+	float: left;
+}
+
+#contacts-title {
+	margin-bottom: 60px;
+}
+
+.social-links li {
+	list-style: none;
+	color: #777;
+}
+
+.social-links a {
+	color: #777;
+}
+
+.social-links a:hover {
+	color: #000;
+	transition: all 0.3s ease-in-out;
+}
+
+#button-top {
+	font-size: 60px;
+	color: #000;
+}
+
+#button-top i {
+	color: #777;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#button-top i:hover {
+	font-size: 80px;
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+
