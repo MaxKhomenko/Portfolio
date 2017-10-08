@@ -1,115 +1,97 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>portfolio</title>
+	<meta charset="UTF-8">
+	<link href="stylesheet.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<title>Portfolio</title>
 </head>
-
 <body>
+
 <header>
-    <div id="home">
-        <br>
-        <div class="conteiner">
-            <h3>максим хоменко</h3>
-        </div>
 
-        <nav role="navigation">
-            <div class="section-title">
-                <a href="#home">home</a>
-                <a href="#works">works</a>
-                <a href="#skills">skills</a>
-                <a href="#contacts">contacts</a>
-            </div>
-    </div>
-    </nav>
+	<div class="container">
 
-    <div>
-        <h1>Верстка сайтов на HTML и CSS<h1>
-    </div>
+		<div class="heading clearfix">
+			<div class="logo">
+				Максим Хоменко
+			</div>
 
-    <div class="button-tell">
-        <a href="tel:+380631189075">позвонить мне</a>
-    </div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">home</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">skills</a></li>
+					<li><a href="#">works</a></li>
+					<li><a href="#">contacts</a></li>
+				</ul>
+			</nav>
+		</div>
 
-    <div class="button-down">
-        <a href="#services">
-            <img src="http://s1.iconbird.com/ico/0612/GooglePlusInterfaceIcons/w128h1281338911632directionaldown.png"
-                 alt="button-down"
-                 height: 10px;
-                 width: 10px;>
-        </a>
-    </div>
+		<h1 class="title-header">
+			верстка сайтов на<br>
+			html и css
+		</h1>
+
+		<a class="button-tell" href="tel:+380631165074">tell me more</a>
+
+	</div>
 
 </header>
 
-<main>
-    <section id="services">
-        <h2>Services</h2>
-        <article>
+<section>
+	<div class="container">
 
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam earum possimus atque inventore. Quisquam,
-                officia. Unde minima quaerat error ipsum nihil architecto, tempore suscipit esse cumque sit, dolorem exercitationem
-                nemo ducimus eos impedit illum earum. Voluptate quis, tempore perferendis delectus obcaecati soluta commodi?
-                Recusandae accusantium dolor, ad nisi et modi a repellendus tenetur excepturi velit amet similique
-                voluptate, sunt perferendis ratione? Vitae beatae natus nisi ex hic ut cum, suscipit alias fugit ab omnis dolorum
-                rerum nulla cumque corporis vero aspernatur voluptates libero a? Praesentium distinctio aut voluptatem. Ipsum modi
-                dolores culpa eius nemo natus a vitae non enim!</div>
-            <ul>
-                <li>bootstrap</li>
-                <li>github</li>
-                <li>react</li>
-                <li>framework</li>
-                <li>angular</li>
-            </ul>
-        </article>
-    </section>
+		<div class="title-services">
+			<h2>services</h2>
+			<p>I've got chops in all phases of the design process.</p>
+		</div>
 
-    <section id="works">
-        <hr>
-        <h2>Works</h2>
+		<div class="services clearfix">
 
-        <article>
-            <div class="my_works">
-                <p id="work_jobs"></p>
-                <p id="work_ecobusiness"></p>
-                <p id="work_grace"></p>
-            </div>
-        </article>
-    </section>
-    <section id="skills">
-        <hr>
-        <h2>skills</h2>
+			<div class="services_item">
+				<img src="img/icon1.png" alt="service-1">
+				<h3>ideas</h3>
+				<p>I collaborate with clients and peers to nurture
+					and transform ideas into well thought out design
+					specs. After all, that's where the majority of
+					amazing user experiences start.</p>
+			</div>
 
-        <article id="my_skills">
-        </article>
-    </section>
+			<div class="services_item">
+				<img src="img/icon2.png" alt="service-2">
+				<h3>html</h3>
+				<p>I sketch and wireframe interfaces focusing on
+					content structure, intuitive UI patterns and
+					simple interactions. I'm a minimalist who truly
+					believes that less is more.</p>
+			</div>
 
-</main>
-<hr>
+			<div class="services_item">
+				<img src="img/icon3.png" alt="service-3">
+				<h3>css</h3>
+				<p>I design in the browser with HTML(5), CSS(3) and
+					a touch of JavaScript. I love coding things from
+					scratch, but I can work with front-end frameworks
+					like Bootstrap too.</p>
+			</div>
 
-<footer id="#contacts">
-    <h2 class="section-title">contacts</h2>
+		</div>
 
-    <div class="contacts">
-        <address>
-            Address: Bila Tserkva, Strasse st., 157 <br>
-            phone: <a href="tel:+325234234234">325234234234</a> <br>
-            email: <a href="mailto:example@example.com">mkhomenko@gmail.com</a> <br>
-            facebook: <a href="http://facebook.com/m.khomenko" target="_blank">m.khomenko</a><br>
-            github: <a href="https://github.com/MaxKhomenko/Repository">repository</a><br>
+	</div>
+</section>
 
-            <embed>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41207.52708234877!2d30.096915976674556!3d49.796022708543795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d3423e37227b9d%3A0x84e311f8582cc6e8!2z0JHRltC70LAg0KbQtdGA0LrQstCwLCDQmtC40ZfQstGB0YzQutCwINC-0LHQuy4sINCj0LrRgNCw0ZfQvdCwLCAwOTEwMA!5e0!3m2!1suk!2snl!4v1504468324925" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </embed>
-        </address>
-    </div>
-    </address>
-    </div>
+<section>
+	<div class="container">skills</div>
+</section>
 
-    <div class="button-top">
-        <a href="#home">back to top</a>
-    </div>
+<section>
+	<div class="container">works</div>
+
+</section>
+
+<footer>
+	<div class="container">contacts</div>
 </footer>
-
 </body>
-
 </html>
