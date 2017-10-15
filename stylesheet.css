@@ -17,16 +17,22 @@ div {
 
 header {
 	background: url(img/first-bg.jpg) no-repeat center top / cover;
-	height: 100vh;
+	height: 900px;
 	padding-bottom: 130px;
 	overflow: hidden;
+	width: 100%;
+	position: fixed;
+}
 
+.content {
+	position: relative;
+	top: 900px;
+	background: white;
 }
 
 .container {
 	width: 930px;
 	margin: 0 auto;
-	outline: 2px solid ed;
 }
 
 .logo {
@@ -136,10 +142,6 @@ a {
 	margin-top: 50px;
 }
 
-#services {
-	padding-bottom: 0px;
-}
-
 .services_item {
 	width: 270px;
 	float: left;
@@ -172,6 +174,10 @@ a {
 
 #works {
 	background: #f7f7f7;
+}
+
+.portfolio {
+	padding-bottom: 60px;
 }
 
 .portfolio li {
