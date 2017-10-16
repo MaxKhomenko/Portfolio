@@ -148,6 +148,16 @@ a {
 	text-align: center;
 }
 
+.services_item img {
+	height: 90px;
+}
+
+#html_icon {
+	height: 100px;
+	margin: -5px 0px;
+
+}
+
 .services_item h3 {
 	font-size: 22px;
 	text-transform: uppercase;
@@ -170,6 +180,43 @@ a {
 
 .services {
 	margin-bottom: 50px;
+}
+
+.my_instruments li {
+	list-style: none;
+	float: left;
+	color: #777;
+	margin-right: 30px;
+	font-size: 70px;
+}
+
+.my_instruments {
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.my_instruments img {
+	height: 90px;
+}
+
+.my_instruments img:hover {
+	transform: scale(1.2);
+}
+
+
+
+#less_icon {
+	height: 70px;
+}
+
+#github_icon {
+	height: 100px;
+}
+
+#photoshop_icon {
+	height: 78px;
 }
 
 #works {
