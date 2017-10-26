@@ -1,0 +1,87 @@
+/* Large Monitors */
+@media only screen
+and (min-width : 1824px) {
+	.container {
+
+	}
+
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+	.logo {
+
+	}
+
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+
+	header {
+		position: absolute;
+		background: #333;
+	}
+
+	.wrapper {
+		top: 667px;
+	}
+
+	.logo {
+		float: none;
+		font-size: 30px;
+		text-align: center;
+		margin: 20px 0 -20px 0;
+	}
+
+	/*hamburger menu*/
+	nav {
+		float: none;
+		text-align: center;
+	}
+
+	.toggleMenu {
+		display: inline-block;
+	}
+
+	/*hamburger-menu button when pressed*/
+	input.toggleMenu:checked + label.toggleMenu {
+	color: #777;
+	}
+
+	input.toggleMenu:checked ~ ul {
+		display: block;
+	}
+
+	.menu li {
+		float: none;
+		overflow: hidde;
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.menu ul {
+		display: none;
+	}
+
+	.title-header {
+		font-size: 43px;
+		margin-top: 90px;
+	}
+
+	.button-tell {
+		margin-top: 100px;
+	}
+
+	#button-down i {
+		padding-top: 80px;
+	}
+
+
+}
