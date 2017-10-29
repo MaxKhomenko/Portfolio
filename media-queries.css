@@ -20,7 +20,7 @@ and (min-width : 1824px) {
 
 }
 
-/*Extra Small Devices, Phones*/
+/*Extre Small Devices, Phones*/
 @media only screen and (max-width: 480px) {
 
 	header {
@@ -87,10 +87,12 @@ and (min-width : 1824px) {
 		padding-top: 15px;
 	}
 
+	/*Services section*/
 	.services_item {
 		float: none;
 		width: 70%;
 		margin: 0 auto;
+		padding-bottom: 10px;
 	}
 
 	.services_item:last-child {
@@ -98,9 +100,10 @@ and (min-width : 1824px) {
 	}
 
 	.services_item:nth-child(2) {
-		margin-left: none;
+		margin-left: auto;
 	}
 
+	/*Instruments section*/
 	.my_instruments {
 		margin-bottom: 160px;
 	}
@@ -124,6 +127,7 @@ and (min-width : 1824px) {
 		margin-left: -20px;
 	}
 
+	/*Works section*/
 	.portfolio {
 		padding-bottom: 0;
 	}
@@ -145,6 +149,7 @@ and (min-width : 1824px) {
 		margin-left: 0;
 	}
 
+	/*Footer*/
 	footer {
 		top: 750px;
 	}
@@ -156,6 +161,7 @@ and (min-width : 1824px) {
 	.map {
 		float: none;
 		height: auto;
+		width: 100%;
 		overflow: hidden;
 	}
 
@@ -163,7 +169,52 @@ and (min-width : 1824px) {
 		margin-bottom: 30px;
 	}
 
+}
+
+/*Iphone 5*/
+@media only screen and (max-width: 320px) {
+
+	/*Header*/
+	.logo {
+		float: none;
+		font-size: 30px;
+		text-align: center;
+		margin: 20px 0 -40px 0;
+	}
+
+	.title-header {
+		font-size: 35px;
+		margin-top: 50px;
+	}
+
+	.button-tell {
+		width: 200px;
+		font-size: 22px;
+		margin-top: 70px;
+	}
+
+	#button-down i {
+		padding-top: 60px;
+	}
+
+	.wrapper {
+		top: 590px;
+	}
+
+	/*Instruments section*/
 
 
+	.my_instruments ul {
+		padding: 0;
+		justify-content: space-around;
+	}
 
+	.my_instruments li {
+		margin-right: 10px;
+	}
+
+	/*Footer*/
+	footer {
+		top: 680px;
+	}
 }
