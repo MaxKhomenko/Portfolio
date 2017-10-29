@@ -83,5 +83,31 @@ and (min-width : 1824px) {
 		padding-top: 65px;
 	}
 
+	.title {
+		padding-top: 15px;
+	}
+
+	.services {
+
+	}
+
+	.services_item {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.services_item p {
+		font-size: 19px;
+	}
+
+	.services_item:last-child {
+		float: none;
+	}
+
+	.services_item:nth-child(2) {
+		margin-left: none;
+	}
+
 
 }
