@@ -105,18 +105,13 @@ and (min-width : 1824px) {
 		margin-bottom: 160px;
 	}
 
-	.my_instruments img {
-		height: 70px;
-	}
-
-	#html_icon {
-		height: 100px;
-		margin: -5px 0;
+	.my_instruments li {
+		margin-right: 20px;
 	}
 
 	#less_icon {
 		height: 40px;
-		margin: 10px -10px;
+		margin: 10px 0;
 	}
 
 	#github_icon {
@@ -124,14 +119,48 @@ and (min-width : 1824px) {
 		margin-top: 10px;
 	}
 
-	#photoshop_icon {
-		height: 70px;
-	}
-
 	#gulp {
 		height: 80px;
-		margin: 0 -10px;
+		margin-left: -20px;
+	}
 
+	.portfolio {
+		padding-bottom: 0;
+	}
+
+	.portfolio li {
+		float: none;
+		max-width: 700px;
+		width: 80%;
+		left: 10%;
+		margin-bottom: 10px;
+	}
+
+	.portfolio li:last-child {
+		float: none;
+		margin-bottom:
+	}
+
+	.portfolio li:nth-child(2) {
+		margin-left: 0;
+	}
+
+	footer {
+		top: 750px;
+	}
+
+	#contacts-title {
+		margin-bottom: 30px;
+	}
+
+	.map {
+		float: none;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.coordinates {
+		margin-bottom: 30px;
 	}
 
 

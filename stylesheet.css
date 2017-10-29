@@ -189,19 +189,19 @@ a {
 	margin-bottom: 50px;
 }
 
-.my_instruments li {
-	list-style: none;
-	float: left;
-	color: #777;
-	margin-right: 30px;
-	font-size: 70px;
-}
-
 .my_instruments {
 	height: 150px;
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 100px;
+}
+
+.my_instruments li {
+	list-style: none;
+	float: left;
+	color: #777;
+	margin-right: 30px;
+	font-size: 70px;70
 }
 
 .my_instruments img {
