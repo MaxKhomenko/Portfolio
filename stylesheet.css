@@ -1,4 +1,5 @@
 body {
+	background: #fff;
 	font-family: 'Oswald', sans-serif;
 	padding: 0;
 	margin: 0;
@@ -95,7 +96,7 @@ a {
 
 .button-tell {
 	background: #fed136;
-	color: #454546;
+	color: #333;
 	border-radius: 3px;
 	display: block;
 	width: 240px;
@@ -288,6 +289,12 @@ a {
 	top: 0;
 }
 
+footer {
+	position: relative;
+	top: 870px;
+	background: #fff;
+}
+
 .map {
 	float: right;
 	height: 300px;
@@ -307,10 +314,14 @@ a {
 	margin: 0;
 }
 
+.social-links ul {
+	float: left;
+}
+
 .social-links li {
 	list-style: none;
-	display: inline-block;
-	margin: 0;
+	display: block;
+	margin: 5px 0;
 	padding: 0;
 }
 
