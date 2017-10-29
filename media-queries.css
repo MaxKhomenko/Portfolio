@@ -87,18 +87,10 @@ and (min-width : 1824px) {
 		padding-top: 15px;
 	}
 
-	.services {
-
-	}
-
 	.services_item {
 		float: none;
 		width: 70%;
 		margin: 0 auto;
-	}
-
-	.services_item p {
-		font-size: 19px;
 	}
 
 	.services_item:last-child {
@@ -108,6 +100,41 @@ and (min-width : 1824px) {
 	.services_item:nth-child(2) {
 		margin-left: none;
 	}
+
+	.my_instruments {
+		margin-bottom: 160px;
+	}
+
+	.my_instruments img {
+		height: 70px;
+	}
+
+	#html_icon {
+		height: 100px;
+		margin: -5px 0;
+	}
+
+	#less_icon {
+		height: 40px;
+		margin: 10px -10px;
+	}
+
+	#github_icon {
+		height: 90px;
+		margin-top: 10px;
+	}
+
+	#photoshop_icon {
+		height: 70px;
+	}
+
+	#gulp {
+		height: 80px;
+		margin: 0 -10px;
+
+	}
+
+
 
 
 }
