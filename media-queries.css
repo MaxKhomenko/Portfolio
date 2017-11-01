@@ -14,11 +14,51 @@ and (min-width : 1824px) {
 
 /*Small Devices, Tablets*/
 @media only screen and (max-width: 768px) {
-	.logo {
-
+	.title-header {
+		margin-top: 95px;
 	}
 
+	.logo {
+		float: none;
+		text-align: center;
+	}
+
+	nav {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.services {
+		margin-bottom: 10px;
+		padding: 0 10px;
+	}
+
+	.services_item:nth-child(2) {
+		margin-left: 45px;
+	}
+
+	/*Instruments section, Tablets*/
+	.my_instruments {
+		margin-bottom: 0;
+	}
+
+	.my_instruments li {
+		margin-right: 10px;
+	}
+
+	#less_icon {
+		margin-left: 8px;
+	}
+
+	.map {
+		width: 55%;
+		margin-right: 10px;
+	}
 }
+
+
+
 
 /*Extre Small Devices, Phones*/
 @media only screen and (max-width: 480px) {
@@ -60,7 +100,6 @@ and (min-width : 1824px) {
 
 	.menu li {
 		float: none;
-		overflow: hidde;
 		display: flex;
 		justify-content: center;
 		margin: 0;
@@ -202,11 +241,9 @@ and (min-width : 1824px) {
 	}
 
 	/*Instruments section*/
-
-
 	.my_instruments ul {
-		padding: 0;
-		justify-content: space-around;
+		padding: 10px 0 0 10px;
+		margin-left: 8px;
 	}
 
 	.my_instruments li {

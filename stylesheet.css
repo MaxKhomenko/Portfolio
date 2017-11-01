@@ -152,6 +152,7 @@ a {
 
 .services {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .services_item {
@@ -175,6 +176,7 @@ a {
 	color: #777;
 	font-size: 18px;
 	line-height: 1.55em;
+	text-align: justify;
 }
 
 .services_item:last-child {
@@ -182,13 +184,10 @@ a {
 }
 
 .services_item:nth-child(2) {
-	margin-left: 62px;
+	margin-left: 59px;
 }
 
-.services {
-	margin-bottom: 50px;
-}
-
+/*Instruments section*/
 .my_instruments {
 	height: 150px;
 	display: flex;
@@ -201,7 +200,7 @@ a {
 	float: left;
 	color: #777;
 	margin-right: 30px;
-	font-size: 70px;70
+	font-size: 70px;
 }
 
 .my_instruments img {
@@ -289,6 +288,7 @@ a {
 	top: 0;
 }
 
+/*Footer*/
 footer {
 	position: relative;
 	top: 870px;
@@ -298,6 +298,11 @@ footer {
 .map {
 	float: right;
 	height: 300px;
+}
+
+.map:hover {
+	outline: 1px solid #333;
+	box-shadow: 10px 10px 5px #333;
 }
 
 .coordinates {
