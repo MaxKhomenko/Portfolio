@@ -1,14 +1,35 @@
 /* Large Monitors */
 @media only screen
 and (min-width : 1824px) {
-	.container {
 
+	.wrapper {
+		top: 950px;
 	}
 
-}
+	.container {
+		max-width: 990px;
+	}
 
-/*Medium Devices, Desktops*/
-@media only screen and (max-width: 992px) {
+	.title-header {
+		font-size: 85px;
+		margin-top: 190px;
+	}
+
+	.services_item p {
+		font-size: 19px;
+	}
+
+	.services_item:nth-child(2) {
+		margin-left: 85px;
+	}
+
+	#contacts-title {
+		margin-top: 100px;
+	}
+
+	.portfolio li:nth-child(2) {
+		margin-left: 43px;
+	}
 
 }
 
@@ -55,6 +76,7 @@ and (min-width : 1824px) {
 		width: 55%;
 		margin-right: 10px;
 	}
+
 }
 
 
@@ -254,4 +276,5 @@ and (min-width : 1824px) {
 	footer {
 		top: 680px;
 	}
+
 }
