@@ -228,12 +228,13 @@ a {
 	height: 78px;
 }
 
+/*Works Section*/
 #works {
 	background: #f7f7f7;
 }
 
 .portfolio {
-	padding-bottom: 60px;
+	padding-bottom: 120px;
 }
 
 .portfolio li {
@@ -244,6 +245,8 @@ a {
 	width: 32.2580645161%;
 	position: relative;
 	overflow: hidden;
+	outline: 1px solid #777;
+	cursor: pointer;
 }
 
 .portfolio li:last-child {
@@ -275,7 +278,7 @@ a {
 	background: rgba(0,0,0,.5);
 	color: #fff;
 	font-size: 30px;
-	padding-top: 130px;
+	padding-top: 150px;
 	text-align: center;
 	opacity: 0;
 	-webkit-transition: all .5s;

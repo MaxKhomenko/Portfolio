@@ -80,9 +80,7 @@ and (min-width : 1824px) {
 }
 
 
-
-
-/*Extre Small Devices, Phones*/
+/*Extra Small Devices, Phones*/
 @media only screen and (max-width: 480px) {
 
 	header {
@@ -203,7 +201,6 @@ and (min-width : 1824px) {
 
 	.portfolio li:last-child {
 		float: none;
-		margin-bottom:
 	}
 
 	.portfolio li:nth-child(2) {
