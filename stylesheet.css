@@ -150,6 +150,118 @@ a {
 	transition: all 0.4s ease-in-out;
 }
 
+/*Form Ask question*/
+.form {
+	position: fixed;
+	bottom: 0;
+	right: 4%;
+	width: 300px;
+	overflow: hidden;
+	transform: translateY(544px);
+	transition: .5s;
+}
+
+.toggleForm:checked ~ .form {
+	transform: translateY(0);
+}
+
+.form:hover {
+	transform: translateY(538px);
+}
+
+.box {
+	padding: 30px;
+	border: 4px solid #777;
+	background: #fff;
+}
+
+.toggleForm {
+	display: block;
+	background: #777;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 10px 0;
+	border-radius: 8px 8px 0 0;
+	width: 85%;
+	cursor: pointer;
+}
+
+.toggleForm [type="checkbox"] {
+	display: none;
+}
+
+.toggleForm i {
+	position: absolute;
+	top: 7px;
+	left: 40px;
+	font-size: 40px;
+}
+
+.inputBox {
+	margin: 0 0 20px;
+	position: relative;
+}
+
+.labelText {
+	font-size: 18px;
+	color: #000;
+	position: absolute;
+	line-height: 55px;
+	transition: .5s;
+}
+
+.focus .labelText {
+	transform: translateY(-30px);
+	font-size: 14px;
+}
+
+.userInput {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	color: #777;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
+	position: relative;
+	background: transparent;
+}
+
+textarea.userInput {
+	height: 100px;
+	margin-top: 12px;
+}
+
+.personalDoc,
+.personalDoc a {
+	color: #777;
+}
+
+.personalDoc a:hover {
+	color: #000;
+}
+
+.button_submit {
+	background: #777;
+	color: #fff;
+	width: 45%;
+	height: 35px;
+	font-size: 18px;
+	border: none;
+	margin-left: 50%;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.button_submit:hover {
+	background: #666;
+}
+
+
+
+/*Section Service*/
 .services {
 	margin-top: 50px;
 	margin-bottom: 50px;
